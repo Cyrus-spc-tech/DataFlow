@@ -8,7 +8,7 @@ class DB:
             host='localhost',
             port=3306,
             user='root',
-            password='your_password'
+            password='Tanishh#123'
         )
         cursor = temp_db.cursor()
         cursor.execute("CREATE DATABASE IF NOT EXISTS techstack")
@@ -19,8 +19,8 @@ class DB:
             host='localhost',
             port=3306,
             user='root',
-            password='your_pass',
-            database='your_DB'        
+            password='Tanishh#123',
+            database='techstack'        
         )
     
         query="create table if not exists user_data (id int primary key auto_increment, name varchar(50), email varchar(50), password varchar(50))"
