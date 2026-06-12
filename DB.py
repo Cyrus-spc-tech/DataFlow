@@ -21,8 +21,7 @@ class DB:
             port=3306,
             user='root',
             password='Tanishh#123',
-            database='techstack'        
-        )
+            database='techstack')
     
         query="create table if not exists user_data (id int primary key auto_increment, name varchar(50), email varchar(50), password varchar(50))"
         c=self.db.cursor()
@@ -275,3 +274,4 @@ class DB:
         print("Data deleted successfully")
 
 '''
+
