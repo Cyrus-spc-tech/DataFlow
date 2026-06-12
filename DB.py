@@ -12,6 +12,7 @@ class DB:
         )
         cursor = temp_db.cursor()
         cursor.execute("CREATE DATABASE IF NOT EXISTS techstack")
+        cursor.close()
         temp_db.close()
         
         # Now connect to the specific database
